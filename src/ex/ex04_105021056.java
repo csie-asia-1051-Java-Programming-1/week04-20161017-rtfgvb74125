@@ -25,7 +25,7 @@ public class ex04_105021056 {
 			}
 
 			m--;
-			
+			System.out.println();
 		}
 
 }
