@@ -12,7 +12,7 @@ public class ex01_105021056 {
 		Scanner scn = new Scanner(System.in);
 		int a = scn.nextInt();
 		int sum = 0;
-		int v2 = 0;
+		
 		float v1 = 0;
 		while(a!=-1){
 			sum = sum + a;v1++;
