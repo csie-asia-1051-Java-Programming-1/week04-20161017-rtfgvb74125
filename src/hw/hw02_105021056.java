@@ -1,9 +1,10 @@
 package hw;
 
 /*
- * Topic: ¨Ï¥ÎªÌ¿é¤J¥¿¾ã¼Æ n »P m µM«á­pºâ
+ * Topic: ä½¿ç”¨è€…è¼¸å…¥æ­£æ•´æ•¸ n èˆ‡ m ç„¶å¾Œè¨ˆç®—
+
  * Date: 2016/10/17
- * Author: 105021056 ¤ı®a®¦
+ * Author: 105021056 ç‹å®¶æ©
  */
 import java.util.Scanner;
 

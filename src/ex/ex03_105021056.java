@@ -16,7 +16,7 @@ public class ex03_105021056 {
 		Scanner scn = new Scanner(System.in);
 		int n = scn.nextInt();
 		
-		for (int i = n;i>=1;i--){
+		for (int i = n;i>0;i--){
 			for(int j = i;j<=n;j++){
 				System.out.print("*");
 				
@@ -27,6 +27,12 @@ public class ex03_105021056 {
 			System.out.println();
 		}
 
+		for(int i = 0;i<n;i++){
+			for(int j = i;j>=0;j--){
+				System.out.print("o");
+			}
+			System.out.println();
+		}
 	}
 
 }

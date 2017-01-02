@@ -15,7 +15,8 @@ public class ex02_105021056 {
 		int m = scn.nextInt();
 		for (int i = 1;i<=n;i++){
 			for(int j = 1;j<=m;j++){
-				System.out.print(i+"*"+j+"="+i*j+"\t");
+				int x = i*j;
+				System.out.print(i+"*"+j+"="+x+"\t");
 				
 			}
 			System.out.println();

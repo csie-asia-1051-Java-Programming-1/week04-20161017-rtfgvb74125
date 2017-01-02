@@ -1,8 +1,9 @@
 package hw;
 /*
- * Topic: ¨Ï¥ÎªÌ¿é¤J n ²£¥Í n ­Ó ¶O¤ó¼Æ¦C (¨Ò n = 5 )1, 1, 2, 3, 5
+ * Topic: ä½¿ç”¨è€…è¼¸å…¥ n ç”¢ç”Ÿ n å€‹ è²»æ°æ•¸åˆ— (ä¾‹ n = 5 )
+1, 1, 2, 3, 5
  * Date: 2016/10/17
- * Author: 105021056 ¤ı®a®¦
+ * Author: 105021056 ï¿½ï¿½ï¿½aï¿½ï¿½
  */
 import java.util.Scanner;
 public class hw01_105021056 {

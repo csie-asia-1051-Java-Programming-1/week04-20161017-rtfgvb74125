@@ -1,11 +1,11 @@
 package hw;
 
 /*
- * Topic: µ{¦¡­Óµ{¦¡Åı¨Ï¥ÎªÌ³sÄò¿é¤J¾ã¼Æ (¥¿¼Æ¡B­t¼Æ¤Î¹s)¡A
- * ª½¨ì¨Ï¥ÎªÌ¿é¤J 999 ®É°±¤î¡AµM«áÅã¥Ü¥¿¼Æ¦³¦h¤Ö­Ó¡A0 ¦³´X­Ó¡A
- * ­t¼ÆÁ`¦@¦³´X­Ó¡A¨Ï¥ÎªÌ¥i¥H­«ÂĞ°õ¦æª½¨ì¨Ï¥ÎªÌ¿é¤Jn
+ * Topic: ç¨‹å¼å€‹ç¨‹å¼è®“ä½¿ç”¨è€…é€£çºŒè¼¸å…¥æ•´æ•¸ (æ­£æ•¸ã€è² æ•¸åŠé›¶)ï¼Œç›´åˆ°ä½¿ç”¨è€…è¼¸å…¥ 999 æ™‚åœæ­¢ï¼Œç„¶å¾Œé¡¯ç¤ºæ­£æ•¸æœ‰å¤šå°‘å€‹ï¼Œ0 æœ‰å¹¾å€‹ï¼Œè² æ•¸ç¸½å…±æœ‰å¹¾å€‹ï¼Œä½¿ç”¨è€…å¯ä»¥é‡è¦†åŸ·è¡Œç›´åˆ°ä½¿ç”¨è€…è¼¸å…¥n
+
+ * 
  * Date: 2016/10/17
- * Author: 105021056 ¤ı®a®¦
+ * Author: 105021056 ç‹å®¶æ©
  */
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class hw03_105021056 {
 		// TODO Auto-generated method stub
 		while(true){
 		Scanner scn = new Scanner(System.in);
-		System.out.print("½Ğ¿é¤J¼Æ­È");
+		System.out.print("è«‹è¼¸å…¥æ•¸å­—");
 		int v1 = scn.nextInt();
 		int sum = 0;
 		int a = 0;
@@ -32,11 +32,11 @@ public class hw03_105021056 {
 				c++;
 			}
 		}
-		System.out.println("¥¿¼Æ"+a+"­t¼Æ"+b+"¹s"+c);
-		System.out.println("¬O§_Ä~ÄòY/N");
+		System.out.println("æ­£æ•¸"+a+"è² æ•¸"+b+"é›¶"+c);
+		System.out.println("è«‹é¸æ“‡Y/N");
 		char ch1 = scn.next().charAt(0);
 		if(ch1=='n'||ch1=='N'){
-			System.out.println("µ{¦¡µ²§ô·PÁÂ¨Ï¥Î");
+			System.out.println("è¬è¬ä½¿ç”¨");
 			break;
 		}
 		}

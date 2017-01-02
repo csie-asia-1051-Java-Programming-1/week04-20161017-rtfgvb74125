@@ -1,12 +1,13 @@
 package hw;
 /*
- * Topic: Åı¨Ï¥ÎªÌ¿é¤J1, 2, 3, »P4¿ï¶µ¡A
-          1.¿é¤J n ¨ÃÅã¥Ü¹Ï§Î (ex: n = 5)
-          2.¿é¤J n ¨ÃÅã¥Ü¹Ï§Î
-          3.¿é¤J n (¥²¶·¬O©_¼Æ)¨ÃÅã¥Ü¹Ï§Î
-          4.µ²§ôµ{¦¡
+ * Topic: è®“ä½¿ç”¨è€…è¼¸å…¥1, 2, 3, èˆ‡4é¸é …ï¼Œ
+1.è¼¸å…¥ n ä¸¦é¡¯ç¤ºåœ–å½¢ (ex: n = 5)
+2.è¼¸å…¥ n ä¸¦é¡¯ç¤ºåœ–å½¢
+3.è¼¸å…¥ n (å¿…é ˆæ˜¯å¥‡æ•¸)ä¸¦é¡¯ç¤ºåœ–å½¢
+4.çµæŸç¨‹å¼
+
  * Date: 2016/10/17
- * Author: 105021056 ¤ı®a®¦
+ * Author: 105021056 ç‹å®¶æ©
  */
 import java.util.Scanner;
 public class hw04_105021056 {
@@ -14,11 +15,11 @@ public class hw04_105021056 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
-		System.out.println("½Ğ¿é¤J¿ï¶µ(1,2,3,4)");
+		System.out.println("è«‹é¸æ“‡(1,2,3,4)");
 		int x = scn.nextInt();
 		switch (x) {
 		case 1:
-			System.out.println("½Ğ¿é¤Jn");
+			System.out.println("è¼¸å…¥å€¼");
 			int v1 = scn.nextInt();
 			for (int i = v1 / 2 + 1; i > 0; i--) {
 				for (int j = i; j > 0; j--) {
@@ -34,7 +35,7 @@ public class hw04_105021056 {
 			}
 			break;
 		case 2:
-			System.out.println("½Ğ¿é¤Jn");
+			System.out.println("è¼¸å…¥å€¼");
 			int v2 = scn.nextInt();
 			for (int i = 0; i < v2 / 2 + 1; i++) {
 				for (int j = 0; j <= i; j++) {
@@ -50,7 +51,7 @@ public class hw04_105021056 {
 			}
 			break;
 		case 3:
-			System.out.println("½Ğ¿é¤Jn");
+			System.out.println("è¼¸å…¥å€¼");
 			int v3 = scn.nextInt();
 			for (int i = 0; i < v3 / 2 + 1; i++) {
 				for (int j = v3 / 2 - i; j > 0; j--) {
@@ -72,10 +73,10 @@ public class hw04_105021056 {
 			}
 			break;
 		case 4:
-			System.out.println("µ{¦¡¤wµ²§ô");
+			System.out.println("çµæŸç¨‹å¼");
 			break;
 		default:
-			System.out.println("¨Ï¥ÎªÌ¿é¤J¿ù»~");
+			System.out.println("è¼¸å…¥éŒ¯èª¤");
 			break;
 		}
 
